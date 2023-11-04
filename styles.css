@@ -1,0 +1,49 @@
+.container{
+    background: rgb(2,0,36);
+    /* height: 1000px;
+    width: auto;
+    position: absolute; */
+}
+.flex{
+    display: flex;
+    border: 2px solid white;
+    height: 775px;
+    width: 1475px;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.mainbody{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+   
+    position: fixed;
+    align-items: center;
+    
+}
+.button{
+    height: 50px;
+    width: 130px;
+    
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(54, 194, 150, 0.19);
+    background: rgba(54, 194, 150, 0.19);
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+     top: 25px;
+     left: 25px;
+font-size: larger;
+    
+
+}
+.button:hover{
+   font-size: xx-large;
+   color: brown;
+}
